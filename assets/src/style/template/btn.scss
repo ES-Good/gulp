@@ -1,0 +1,12 @@
+.btn{
+    outline: none;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid;
+    max-width: 320px;
+    width: 100%;
+    transition: color .5s, background-color .5s, transform .5s;
+    &:hover{
+        transform: translate(2px, -2px);
+    }
+}

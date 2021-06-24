@@ -10,7 +10,7 @@
 @import "../../../node_modules/bootstrap/scss/_grid";
 @import "../../../node_modules/bootstrap/scss/_tables";
 @import "../../../node_modules/bootstrap/scss/_forms";
-@import "../../../node_modules/bootstrap/scss/_buttons";
+// @import "../../../node_modules/bootstrap/scss/_buttons";
 @import "../../../node_modules/bootstrap/scss/_transitions";
 @import "../../../node_modules/bootstrap/scss/_dropdown";
 @import "../../../node_modules/bootstrap/scss/_button-group";
@@ -28,7 +28,7 @@
 @import "../../../node_modules/bootstrap/scss/_modal";
 @import "../../../node_modules/bootstrap/scss/_tooltip";
 @import "../../../node_modules/bootstrap/scss/_popover";
-@import "../../../node_modules/bootstrap/scss/_carousel";
+// @import "../../../node_modules/bootstrap/scss/_carousel";
 @import "../../../node_modules/bootstrap/scss/_spinners";
 @import "../../../node_modules/bootstrap/scss/_utilities";
 @import "../../../node_modules/bootstrap/scss/_accordion";
@@ -44,9 +44,14 @@
 
 // Подключение своих SCSS файлов
 @import "variables"; //переменные
+@import "template/btn"; //кнопки
+@import "template/title"; //заголовки
+@import "template/text"; //текст
+@import "template/fonts"; //шрифты
 
 
-@import "template/title";
+
+
 @import "my";
 @import "media";
 

@@ -1,11 +1,14 @@
 .title{
     &_big{
-        font-size: $fz-tit-big;
+        font-size: $mob-fz-tit-big;
     }
     &_medium{
-        font-size: $fz-tit-medium;
+        font-size: $mob-fz-tit-medium;
     }
     &_small{
-        font-size: $fz-tit-small;
+        font-size: $mob-fz-tit-small;
+    }
+    &_mini{
+        font-size: $mob-fz-tit-mini;
     }
 }
